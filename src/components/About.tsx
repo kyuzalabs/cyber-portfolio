@@ -1,6 +1,6 @@
 import Reveal from './Reveal'
 import { FaMapMarkerAlt, FaPhoneAlt, FaArrowRight } from 'react-icons/fa'
-import { about, eyeVideo } from '../data/content'
+import { about, aboutVideo } from '../data/content'
 
 export default function About() {
   return (
@@ -8,7 +8,7 @@ export default function About() {
       <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-2">
         <Reveal className="relative">
           <div className="relative overflow-hidden rounded-3xl border border-white/10">
-            <video src={eyeVideo} poster="images/eye-poster.jpg" autoPlay muted loop playsInline className="aspect-[4/3] w-full object-cover" />
+            <video src={aboutVideo} poster="images/about-poster.jpg" autoPlay muted loop playsInline className="aspect-video w-full object-cover" />
           </div>
           <div className="absolute -bottom-5 -right-1 rounded-2xl border border-red/40 bg-bg/90 px-6 py-4 glow-red backdrop-blur sm:-right-3">
             <div className="font-display text-3xl font-bold text-red">{about.badgeValue}</div>

@@ -2,6 +2,7 @@ export const nav = ['HOME', 'ABOUT', 'SERVICE', 'PROJECT', 'SKILL', 'CONTACT']
 export const navIds = ['home', 'about', 'service', 'project', 'skill', 'contact']
 
 export const eyeVideo = 'videos/eye.mp4'
+export const aboutVideo = 'videos/about.mp4'
 
 export const hero = {
   welcome: 'Welcome',
