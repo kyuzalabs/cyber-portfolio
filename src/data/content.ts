@@ -49,10 +49,10 @@ export const services = [
 ]
 
 export const projects = [
-  { title: 'Kasir Coffee Shop', desc: 'Coffee shop POS web app — catalog, cart, payment & digital receipt.', img: 'images/projects/kasir-coffee.svg', link: 'https://kyuzalabs.github.io/kasir-coffee/' },
-  { title: 'Portfolio Minimal', desc: 'Monochrome editorial portfolio with scroll reveals.', img: 'images/projects/portfolio-minimal.svg', link: 'https://kyuzalabs.github.io/kyuza-portfolio/' },
-  { title: 'Mint Radar', desc: 'NFT mint & airdrop detector with Discord logging.', img: 'images/projects/mint-radar.svg', link: 'https://github.com/kyuzalabs/mint-radar' },
-  { title: 'Job Scraper Bot', desc: 'Telegram bot that monitors gig/bounty listings.', img: 'images/projects/job-scraper.svg', link: 'https://github.com/kyuzalabs/job-scraper' },
+  { title: 'Kasir Coffee Shop', desc: 'Coffee shop POS web app — catalog, cart, payment & digital receipt.', img: 'images/projects/kasir-coffee.png', link: 'https://kyuzalabs.github.io/kasir-coffee/' },
+  { title: 'Portfolio Minimal', desc: 'Monochrome editorial portfolio with scroll reveals.', img: 'images/projects/portfolio-minimal.png', link: 'https://kyuzalabs.github.io/kyuza-portfolio/' },
+  { title: 'Mint Radar', desc: 'NFT mint & airdrop detector with Discord logging.', img: 'images/projects/mint-radar-app.svg', link: 'https://github.com/kyuzalabs/mint-radar' },
+  { title: 'Job Scraper Bot', desc: 'Telegram bot that monitors gig/bounty listings.', img: 'images/projects/job-scraper-app.svg', link: 'https://github.com/kyuzalabs/job-scraper' },
 ]
 
 export const skills = [
