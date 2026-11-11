@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { FaGithub, FaTwitter, FaTelegram, FaArrowRight, FaMobileAlt, FaCode } from 'react-icons/fa'
+import { FaGithub, FaTwitter, FaTelegram, FaInstagram, FaTiktok, FaArrowRight, FaMobileAlt, FaCode } from 'react-icons/fa'
 import { hero, eyeVideo } from '../data/content'
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1]
@@ -8,6 +8,8 @@ const socials = [
   { icon: FaGithub, href: 'https://github.com/kyuzalabs' },
   { icon: FaTwitter, href: 'https://x.com/kyuzatempest' },
   { icon: FaTelegram, href: 'https://t.me/Kyuzaatzy' },
+  { icon: FaInstagram, href: 'https://www.instagram.com/kyuz4verse' },
+  { icon: FaTiktok, href: 'https://www.tiktok.com/@rimuruuzyy' },
 ]
 
 function Stat({ value, label }: { value: string; label: string }) {
@@ -97,7 +99,7 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.8 }}
-            className="mt-8 flex gap-4"
+            className="mt-8 flex flex-wrap gap-4"
           >
             {socials.map((s, i) => (
               <a

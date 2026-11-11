@@ -21,7 +21,7 @@ export const about = {
   badgeValue: '1+',
   badgeLabel: 'Years of Experience',
   location: { label: 'My Location', value: 'Salatiga, Indonesia' },
-  phone: { label: 'My Phone Number', value: '+62 812-3456-7890' },
+  phone: { label: 'My Phone Number', value: '+62 882-1531-2197' },
 }
 
 export const services = [
@@ -68,7 +68,7 @@ export const contact = {
   titleA: 'Contact',
   titleB: 'Me',
   para: "Let's build something great together. Have a project in mind or just want to chat about the latest in web tech? I'm always open to discussing new opportunities, creative ideas, or ways to level up your skills. I'm always open to discussing new opportunities, creative ideas, or ways to help your vision come to life. Don't hesitate to get in touch. I'll do my best to respond within 24 hours.",
-  whatsapp: '+62 812-3456-7890',
+  whatsapp: '+62 882-1531-2197',
   address: 'Salatiga, Indonesia',
   formA: 'Send',
   formB: 'Email',
