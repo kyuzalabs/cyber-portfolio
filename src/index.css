@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0a0a0a;
+  --color-card: #171717;
+  --color-card2: #1d1d1d;
+  --color-red: #e9432e;
+  --color-redh: #ff5040;
+  --color-ink: #ffffff;
+  --color-mut: #9b9b9b;
+  --font-display: "Chakra Petch", system-ui, sans-serif;
+  --font-sans: "Poppins", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* glow merah khas cyberpunk */
+.glow-red {
+  box-shadow: 0 0 24px rgba(233, 67, 46, 0.35), 0 0 60px rgba(233, 67, 46, 0.12);
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e9432e;
+}
+
+::selection {
+  background: rgba(233, 67, 46, 0.4);
+}
