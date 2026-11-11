@@ -20,7 +20,7 @@ export const about = {
   bio: "Hi, my name is Kyuza. I am a web developer and creative designer who loves building digital experiences that are not only functional but visually appealing. I have always been curious about how websites work, and that curiosity quickly turned into a passion for creating modern and user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I am learning and improving every day. My goal is to design and develop projects that provide clean structure and engaging solutions.",
   badgeValue: '1+',
   badgeLabel: 'Years of Experience',
-  location: { label: 'My Location', value: 'Jakarta, Indonesia' },
+  location: { label: 'My Location', value: 'Salatiga, Indonesia' },
   phone: { label: 'My Phone Number', value: '+62 812-3456-7890' },
 }
 
@@ -69,7 +69,7 @@ export const contact = {
   titleB: 'Me',
   para: "Let's build something great together. Have a project in mind or just want to chat about the latest in web tech? I'm always open to discussing new opportunities, creative ideas, or ways to level up your skills. I'm always open to discussing new opportunities, creative ideas, or ways to help your vision come to life. Don't hesitate to get in touch. I'll do my best to respond within 24 hours.",
   whatsapp: '+62 812-3456-7890',
-  address: 'Jakarta, Indonesia',
+  address: 'Salatiga, Indonesia',
   formA: 'Send',
   formB: 'Email',
   email: 'hazeesatoru5@gmail.com',

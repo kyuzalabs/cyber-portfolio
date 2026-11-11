@@ -1,14 +1,13 @@
 import { motion } from 'framer-motion'
-import { FaGithub, FaInstagram, FaLinkedin, FaTiktok, FaArrowRight, FaMobileAlt, FaCode } from 'react-icons/fa'
+import { FaGithub, FaTwitter, FaTelegram, FaArrowRight, FaMobileAlt, FaCode } from 'react-icons/fa'
 import { hero, eyeVideo } from '../data/content'
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1]
 
 const socials = [
   { icon: FaGithub, href: 'https://github.com/kyuzalabs' },
-  { icon: FaInstagram, href: '#' },
-  { icon: FaLinkedin, href: '#' },
-  { icon: FaTiktok, href: '#' },
+  { icon: FaTwitter, href: 'https://x.com/kyuzatempest' },
+  { icon: FaTelegram, href: 'https://t.me/Kyuzaatzy' },
 ]
 
 function Stat({ value, label }: { value: string; label: string }) {
