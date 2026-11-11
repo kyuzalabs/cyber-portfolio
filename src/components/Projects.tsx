@@ -21,8 +21,13 @@ export default function Projects() {
           {projects.map((p, i) => (
             <Reveal key={p.title} delay={i * 0.06}>
               <div className="group h-full overflow-hidden rounded-3xl border border-white/10 bg-card transition-colors hover:border-red">
-                <div className="flex h-40 items-center justify-center bg-gradient-to-br from-[#1d1d1d] to-[#101010] text-6xl">
-                  <span className="transition-transform duration-300 group-hover:scale-110">{p.emoji}</span>
+                <div className="relative h-40 overflow-hidden bg-gradient-to-br from-[#1d1d1d] to-[#101010]">
+                  <img
+                    src={p.img}
+                    alt={p.title}
+                    loading="lazy"
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
                 </div>
                 <div className="p-5">
                   <h3 className="font-display text-lg font-bold">{p.title}</h3>
