@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
+import { FaBars, FaTimes } from 'react-icons/fa'
 import { nav, navIds } from '../data/content'
 
 export default function Navbar() {
   const [active, setActive] = useState(0)
   const [hovered, setHovered] = useState<number | null>(null)
+  const [open, setOpen] = useState(false)
 
   useEffect(() => {
     const onScroll = () => {
@@ -52,13 +54,39 @@ export default function Navbar() {
           ))}
         </div>
 
-        <a
-          href="#contact"
-          className="rounded-full bg-red px-4 py-2 font-display text-xs font-semibold text-white md:hidden"
+        <button
+          onClick={() => setOpen((o) => !o)}
+          aria-label="Menu"
+          className="flex h-10 w-10 items-center justify-center rounded-full border border-red/20 text-lg text-ink md:hidden"
         >
-          Hire
-        </a>
+          {open ? <FaTimes /> : <FaBars />}
+        </button>
       </nav>
+
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ opacity: 0, y: -8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -8 }}
+            transition={{ duration: 0.2 }}
+            className="mx-auto mt-2 max-w-6xl rounded-2xl border border-red/20 bg-black/90 p-2 backdrop-blur md:hidden"
+          >
+            {nav.map((item, i) => (
+              <a
+                key={item}
+                href={`#${navIds[i]}`}
+                onClick={() => setOpen(false)}
+                className={`block rounded-xl px-4 py-3 font-display text-sm font-semibold uppercase tracking-wider ${
+                  active === i ? 'bg-red text-bg' : 'text-ink/80 hover:bg-white/5'
+                }`}
+              >
+                {item}
+              </a>
+            ))}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   )
 }

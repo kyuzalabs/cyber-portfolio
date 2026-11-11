@@ -10,7 +10,7 @@ export default function About() {
           <div className="relative overflow-hidden rounded-3xl border border-white/10">
             <video src={eyeVideo} poster="images/eye-poster.jpg" autoPlay muted loop playsInline className="aspect-[4/3] w-full object-cover" />
           </div>
-          <div className="absolute -bottom-5 -right-3 rounded-2xl border border-red/40 bg-bg/90 px-6 py-4 glow-red backdrop-blur">
+          <div className="absolute -bottom-5 -right-1 rounded-2xl border border-red/40 bg-bg/90 px-6 py-4 glow-red backdrop-blur sm:-right-3">
             <div className="font-display text-3xl font-bold text-red">{about.badgeValue}</div>
             <div className="max-w-[120px] font-sans text-xs text-mut">{about.badgeLabel}</div>
           </div>

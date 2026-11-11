@@ -50,10 +50,9 @@ export const services = [
 export const projects = [
   { title: 'Kasir Coffee Shop', desc: 'Coffee shop POS web app — catalog, cart, payment & digital receipt.', emoji: '☕', link: 'https://kyuzalabs.github.io/kasir-coffee/' },
   { title: 'Portfolio Minimal', desc: 'Monochrome editorial portfolio with scroll reveals.', emoji: '⬛', link: 'https://kyuzalabs.github.io/kyuza-portfolio/' },
-  { title: 'Portfolio 3D', desc: 'Interactive 3D portfolio with Three.js photo card.', emoji: '🌀', link: 'https://kyuzalabs.github.io/portfolio-3d/' },
   { title: 'Kyuza Shop', desc: 'Game top-up store — 28 products, cart & checkout.', emoji: '🛒', link: '#' },
-  { title: 'Mint Radar', desc: 'NFT mint & airdrop detector with Discord logging.', emoji: '📡', link: '#' },
-  { title: 'Job Scraper Bot', desc: 'Telegram bot that monitors gig/bounty listings.', emoji: '🤖', link: '#' },
+  { title: 'Mint Radar', desc: 'NFT mint & airdrop detector with Discord logging.', emoji: '📡', link: 'https://github.com/kyuzalabs/mint-radar' },
+  { title: 'Job Scraper Bot', desc: 'Telegram bot that monitors gig/bounty listings.', emoji: '🤖', link: 'https://github.com/kyuzalabs/job-scraper' },
 ]
 
 export const skills = [
