@@ -134,10 +134,10 @@ export default function Hero() {
                 className="absolute inset-0 h-full w-full object-cover"
               />
               <div className="absolute left-1/2 top-2 h-2 w-12 -translate-x-1/2 rounded-full bg-black/80 sm:top-2.5 sm:w-20" />
-              <span className="absolute left-2 top-6 flex items-center gap-1 rounded-full bg-black/55 px-1.5 py-0.5 font-display text-[8px] font-semibold text-white backdrop-blur sm:left-3 sm:top-9 sm:gap-1.5 sm:px-2.5 sm:py-1 sm:text-[10px]">
+              <span className="absolute left-2 top-6 flex items-center gap-1 whitespace-nowrap rounded-full bg-black/55 px-1.5 py-0.5 font-display text-[8px] font-semibold text-white backdrop-blur sm:left-3 sm:top-9 sm:gap-1.5 sm:px-2.5 sm:py-1 sm:text-[10px]">
                 <FaMobileAlt className="text-red" /> Responsive
               </span>
-              <span className="absolute bottom-14 left-1/2 flex -translate-x-1/2 items-center gap-1 rounded-full bg-red px-2.5 py-1 font-display text-[8px] font-bold text-white sm:bottom-20 sm:gap-1.5 sm:px-4 sm:py-1.5 sm:text-[10px]">
+              <span className="absolute bottom-14 left-1/2 flex -translate-x-1/2 items-center gap-1 whitespace-nowrap rounded-full bg-red px-2.5 py-1 font-display text-[8px] font-bold text-white sm:bottom-20 sm:gap-1.5 sm:px-4 sm:py-1.5 sm:text-[10px]">
                 <FaCode /> Open code
               </span>
             </div>
