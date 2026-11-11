@@ -125,6 +125,7 @@ export default function Hero() {
             <div className="glow-red relative aspect-[9/17] overflow-hidden rounded-[2.6rem] border-2 border-red/50 bg-black">
               <video
                 src={eyeVideo}
+                poster="images/eye-poster.jpg"
                 autoPlay
                 muted
                 loop
